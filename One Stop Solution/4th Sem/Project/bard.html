@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MithoMithoTrips</title>
+<style>
+body {
+font-family: sans-serif;
+}
+
+header {
+background-color: #ffffff;
+padding: 20px;
+}
+
+h1 {
+font-size: 30px;
+}
+
+nav {
+float: right;
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+nav li {
+display: inline-block;
+margin-right: 10px;
+}
+
+nav a {
+text-decoration: none;
+color: #000000;
+}
+
+main {
+padding: 20px;
+}
+
+footer {
+background-color: #ffffff;
+padding: 20px;
+text-align: center;
+}
+</style>
+<script>
+const searchInput = document.querySelector("#search-input");
+const searchButton = document.querySelector("#search-button");
+
+searchButton.addEventListener("click", function() {
+const searchTerm = searchInput.value;
+
+// Perform a search using the search term
+});
+</script>
+</head>
+<body>
+<header>
+<h1>MithoMithoTrips</h1>
+<nav>
+<ul>
+<li><a href="#">Flights</a></li>
+<li><a href="#">Hotels</a></li>
+<li><a href="#">Tours</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<input type="text" id="search-input" placeholder="Search for destinations, flights, hotels, or tours">
+<button id="search-button">Search</button>
+</main>
+<footer>
+<p>Copyright &copy; 2023 MithoMithoTrips</p>
+</footer>
+</body>
+</html>
